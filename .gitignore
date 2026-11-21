@@ -1,0 +1,14 @@
+# Vagrant
+.vagrant/
+*.box
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+# Segredos e kubeconfig
+*.pem
+*.key
+kubeconfig*
+.env
